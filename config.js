@@ -5,27 +5,27 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Hazel",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will You Be Tun's Valentine? 😻",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['💖', '💗', '💓'],  // Heart emojis
+        bears: ['🧸', '🐱','🐶', '🐻‍❄️']                      
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Are you free on Valentines 🥺",                                    // First interaction
+            yesBtn: "Ja",                                             // Text for "Yes" button
+            noBtn: "Nee",                                               // Text for "No" button
+            secretAnswer: "Nghỉ học để rảnh đi:)))"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
